@@ -5,7 +5,7 @@ def exibir_menu():
     print("\nMENU:")
     print("1 - Buscar Site Senado")
     print("2 - Compara Links Senado")
-    print("3 - Executar Script 3")
+    print("3 - Extrai dados dos Links")
     print("0 - Sair")
 
 def executar_script(opcao):
@@ -18,7 +18,7 @@ def executar_script(opcao):
         script_path = os.path.join(base_path, "compara.py")
         subprocess.run(["python", script_path])
     elif opcao == "3":
-        script_path = os.path.join(base_path, "script3.py")
+        script_path = os.path.join(base_path, "salvalink.py")
         subprocess.run(["python", script_path])
     elif opcao == "0":
         print("Saindo...")
