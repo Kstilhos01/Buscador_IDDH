@@ -3,8 +3,8 @@ import subprocess
 
 def exibir_menu():
     print("\nMENU:")
-    print("1 - Executar Script 1")
-    print("2 - Executar Script 2")
+    print("1 - Buscar Site Senado")
+    print("2 - Compara Links Senado")
     print("3 - Executar Script 3")
     print("0 - Sair")
 
@@ -12,10 +12,10 @@ def executar_script(opcao):
     base_path = os.path.join(os.getcwd(), 'scripts')  # Caminho para a pasta 'scripts'
     
     if opcao == "1":
-        script_path = os.path.join(base_path, "script1.py")
+        script_path = os.path.join(base_path, "busca_senador.py")
         subprocess.run(["python", script_path])
     elif opcao == "2":
-        script_path = os.path.join(base_path, "script2.py")
+        script_path = os.path.join(base_path, "compara.py")
         subprocess.run(["python", script_path])
     elif opcao == "3":
         script_path = os.path.join(base_path, "script3.py")
