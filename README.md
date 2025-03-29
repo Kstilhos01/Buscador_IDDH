@@ -1,5 +1,6 @@
 # Buscador_IDDH
 1 - Para utilizar baixe o Python 3 - se for windows https://python.org.br/instalacao-windows/
+
 Linux - sudo apt-get install python3.9
 
 Inicar pelo CMD
