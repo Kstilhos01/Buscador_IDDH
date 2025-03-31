@@ -3,7 +3,7 @@ import pandas as pd
 import sqlite3
 
 # Sua API Key do SerpAPI
-API_KEY = "8a4905a747795833ecff6c32202dffdec2751132dd10daaecef61549c6ea266b"
+API_KEY = "inserir aqui sua chave do SerAPI"
 
 def buscar_noticias_google(termo_busca, num_resultados, data_inicio, data_fim):
     """Busca notícias no Google News usando a SerpAPI"""
