@@ -4,7 +4,7 @@
 Linux - sudo apt-get install python3.9
 
 Inicar pelo CMD
-Abrir o ini.py - python3 ini.py
+Abrir o ini.py -  Digite através do CMD - python3 ini.py
 
 
 Buscar Site Senado - Busca links, no site do Senado, onde Projetos de Lei contenha a frase pesquisada, ele busca por frase e palavras da frase.
