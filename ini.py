@@ -23,10 +23,10 @@ def instalar_dependencias():
             print(f"Erro ao instalar a dependência '{dependencia}'. Verifique manualmente.")
 
 def executar_script(opcao):
-    base_path = os.path.join(os.getcwd(), 'scripts')  # Caminho para a pasta 'scripts'
+    base_path = os.path.join(os.getcwd(), 'script')  # Caminho para a pasta 'scripts'
     
     if opcao == "1":
-        script_path = os.path.join(base_path, "buscador.py")
+        script_path = os.path.join(base_path, "buscador_senado.py")
         subprocess.run(["python", script_path])
     elif opcao == "2":
         script_path = os.path.join(base_path, "compara.py")
