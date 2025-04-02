@@ -1,4 +1,4 @@
-  """Busca Proejtos de leis no site do Senado, que contenha a palavra digitada."""
+
 import requests
 from bs4 import BeautifulSoup
 import time
