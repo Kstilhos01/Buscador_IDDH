@@ -22,3 +22,8 @@ Extrai dados dos Links - Extrai do arquivo final dados como: "ementa"; "assunto"
 
 Buscar Noticias Google - Para usar este item, deve realizar o cadastro no SerAPI, e gerar uma chave para inserir no script busca_noticia.py
 LINK: https://serpapi.com
+
+Dentro da pasta Scritps, abrir o arquivo busca_noticia.py com bloco de notas, e colar a chave no campo.
+
+# Sua API Key do SerpAPI
+API_KEY = "colar aqui dentro e salvar o arquivo"
